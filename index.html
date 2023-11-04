@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>SKYROOT</title>
+</head>
+
+<body>
+    <!-- ============ MAIN WRAPPER START  ============ -->
+    <div class="wrapper">
+        <!-- ====== MAIN CONTAINER START ====== -->
+        <div class="container">
+
+            <div class="hero-section">
+                <!-- ====== NAVBAR START ====== -->
+                <nav id="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo.svg" alt="error #404"></a>
+                    </div>
+            
+                    <ul class="navlist">
+                        <li><a href="vikram-s.html">VIKRAM S</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="LaunchServices.html">LAUNCH SERVICES</a></li>
+                        <li><a href="news.html">NEWS ROOM</a></li>
+                        <li><a href="carrier.html">CARRIER</a></li>
+                        <li class="launch"><a href="javascript:void(0);" onclick="openPopup()">LAUNCH WITH US</a></li>
+                    </ul>
+                </nav>
+            
+                
+                <div id="popup-container" class="popup-container">
+                    <div class="popup-form">
+                        <button onclick="closePopup()" class="close-button">X</button> <!-- Close button -->
+                        <h1>Launch With Us</h1>
+                        <hr>
+                        <form>
+                          
+                            <label for="NAME " id="name-label">Name:</label><br>
+                            <input type="text" placeholder="YOUR NAME" id="name" name="name">
+                            <label for="ORAGANISATION " id="ORGANISATION-label">ORAGANISATION:</label><br>
+                            <input type="text" placeholder="ORAGANISATION NAME" id="ORGANISATION" name="ORAGANISATION"><br><br>
+                            <br><br>
+                            <label for="EMAIL " id="EMAIL-label">EMAIL:</label><br>
+                            <input type="email" placeholder="EMAIL ID" id="EMAIL" name="EMAIL">
+                            <label for="DATE " id="DATE-label">TENTATIVE LAUNCH DATE:</label><br>
+                            <input type="datetime-local" placeholder="DD/MM/YYYY" id="DATE"  name="DATE">
+                            <br><br>
+                            <label for="WEIGHT " id="WEIGHT-label">PLAYLOAD MASS (KG):</label><br>
+                            <input type="number" placeholder="KG" id="WEIGHT"  name="WEIGHT">
+                            <label for="TARGET " id="TARGET-label">Target inclination (deg):</label><br>
+                            <input type="number" placeholder="DEG" id="TARGET"  name="TARGET">
+                            <label for="TARGET2 " id="TARGET2-label">Target ALTITUDE (KM):</label><br>
+                            <input type="number" placeholder="KM" id="TARGET2"  name="TARGET2">
+                            <br><br>
+                            <input type="text" placeholder="LAUNCH WITH US"  id="LAUNCHWITHUS" name="LAUNCH WITH US">
+                        </form>
+                    </div>
+                </div>
+                <!-- ====== NAVBAR END ====== -->
+                <!-- ====== TEXT CONTENT START ====== -->
+                <div class="front-text">
+                    <p id="text-text">
+                        OPENING <br>
+                        SPACE <br>
+                        FOR&nbsp ALL
+                    </p>
+                    <div class="line"></div>
+                    <div class="line-text">
+                        Space is the next big frontier and at Skyroot we are on a mission to Open Space for all by
+                        making Spaceflight <br>affordable, reliable and regular.
+                    </div>
+                </div>
+                <!-- ====== TEXT CONTENT END ====== -->
+
+            </div>
+
+            <div id="rocket-base">
+                <div class="big-text">
+                    Affordable, On-demand and reliable <br>ride to space.
+                </div>
+                <div class="dark-back">
+                   
+                    <div class="inner-text">
+                        <div class="gap-div">
+                            <div class="rocket">VIKRAM S</div>
+                            <div class="line"></div>
+                            <p class="hide">80 kg to 100 km Altitude</p>
+                        </div>
+                        <div class="gap-div">
+                            <div class="rocket">VIKRAM I</div>
+                            <div class="line"></div>
+                            <p class="hide">480 kg to 500 km Low Inclination Orbit 290 kg to 500 km SSPO</p>
+                        </div>
+                        <div class="gap-div">
+                            <div class="rocket">VIKRAM II</div>
+                            <div class="line"></div>
+                            <p class="hide">595 kg to 500 km Low Inclination Orbit 400 kg to 500 km SSPO</p>
+                        </div>
+                        <div class="gap-div">
+                            <div class="rocket">VIKRAM III</div>
+                            <div class="line"></div>
+                            <p class="hide">815 kg to 500 km Low Inclination Orbit 560 kg to 500 km SSPO</p>
+                        </div>
+                    </div>
+                    <div class="inner-img">
+                        <div class="image-container">
+                            <img src="https://skyroot.in/images/Vikram-S.png" alt="Image">
+                        </div>
+                        <div class="image-sources">
+                            <div class="image-source" data-image-name="VIKRAM S"></div>
+                            <div class="image-source" data-image-name="VIKRAM I"></div>
+                            <div class="image-source" data-image-name="VIKRAM II"></div>
+                            <div class="image-source" data-image-name="VIKRAM III"></div>
+                        </div>
+
+                        <div class="undertext">
+                            Note: The Vikram Series can meet wide range of orbital inclinations and altitudes. Please contact us for more information.
+                        </div>
+
+                       <button id="btn"><a href="LaunchServices.html"><u>Know More</u></a></button>
+                    </div>
+
+                </div>
+        </div>
+
+            <section id="engine-test">
+
+                <div class="container-change">
+                    <div class="image-container-change">
+                        <img class="image-change" src="https://skyroot.in/images/cryo-firing.jpeg" alt="Image 1">
+                        <div class="timer-container">
+                            <div class="timer"> <span id="countdown"> </span>  </div>
+                            <div class="timeline">
+                                <div class="time-left"></div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="description-container">
+                        <div class="description-change">
+                            <p class="one-one">MILESTONE</p><hr><br>
+                                <p class="one-two">01</p>
+                                <p class="one-three">INDIAN LAUNCH STARTUP SKYROOT SUCCESSFULLY TESTS ROCKET ENGINE FOR VIKRAM II</p><br>
+                                <p class="one-four">Hyderabad-based space tech start-up Skyroot Aeropsace , which last year became the first private company from the country to launch a rockey into space , on April 4 announced</p>
+                                <p class="one-five"><u>Read More</u></p></div>
+                        
+                        <div class="button-change" onclick="changeContent()">></div>
+                    </div>
+                </div>
+
+            </section>
+
+            <div class="Stats">
+                <div class="Stats-container">
+                    <p id="st">Stats</p>
+                    <div class="Stats-container2">
+                        <div>
+                            <div class="gap">
+                                <h3>Funding</h3>
+                                <p> 68Mn</p>
+                            </div>
+                            <div class="gap" >
+                                <h3>Founded in</h3>
+                                <p> 2018</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="gap">
+                                <h3>Team Size</h3>
+                                <p> 200+
+                                </p>
+                            </div>
+                            <div class="gap" >
+                                <h3>Cummulative Experience in rocket industry</h3>
+                                <p> 1000yrs+</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-container">
+                <h1>PRESS FEATURES / ARTICLES</h1>
+
+                <div class="gallery">
+
+                    <figure class="card">
+                        <img src="https://skyroot.in/images/the%20hindu.jpg" alt="">
+                        <div class="card-des">VIKRAM-S,INDIA FIRST PRIVATE ROCKET,LIFTS OFF FROM ISRO SPACEPORT</div>
+                    </figure>
+
+                    <figure class="card">
+                        <img src="https://skyroot.in/images/economic%20times.jpg" alt="">
+                        <div class="card-des">VIKRAM-S ROCKET LAUNCH : INDIA'S FIRST PRIVATELY DEVELOPED ROCKET LIFTS OFF FROM SHRIHARIKOTA</div>
+                    </figure>
+
+                    <figure class="card">
+                        <img src="https://skyroot.in/images/IEEE.jpg" alt="">
+                        <div class="card-des">INDIA'S FIRST PRIVATE SPACE ROCKET BLASTS OFF THE LAUNCH IS A SIGNAL OF THE COUNTRY'S AMITIOUS SPACEFARING PLANS</div>
+                    </figure>
+
+                    <figure class="card">
+                        <img src="https://skyroot.in/images/Reuters.JPG" alt="">
+                        <div class="card-des">INDIA'S FIRST PRIVATE ROCKET COMPANY LOOKS TO SLASH SATELLITE COSTS</div>
+                    </figure>
+
+                    <figure class="card">
+                        <img src="https://skyroot.in/images/BBC.png" alt="">
+                        <div class="card-des">SKYROOT: THE PRIVATE FIRMS HELPING INDIA AIM HIGH IN SPACE</div>
+                    </figure>
+
+                    <figure class="card">
+                        <img src="https://skyroot.in/images/CNN.JPG" alt="">
+                        <div class="card-des">INDIA'S FIRST PIVATE ROCKT VIKRAM-S IS LAUNCHED INTO SPACE</div>
+                    </figure>
+
+                    <figure class="card">
+                        <img src="https://skyroot.in/images/times%20now.png" alt="">
+                        <div class="card-des">SKYROOT AEROSPACE RAISES $51 MILLION TO PROPEL THE NEW FUTURE OF SMALL SATELLITE LAUNCHES </div>
+                    </figure>
+
+                    <figure class="card">
+                        <img src="https://skyroot.in/images/observational-satellite(1).png" alt="">
+                        <div class="card-des">SKYROOT AEROSPACE FIRST SPACETECH STARTUP TO FORMALLY SIGN UP WITH ISRO</div>
+                    </figure>
+
+                    <figure class="card">
+                        <img src="https://skyroot.in/images/hy27skyroot.jpeg" alt="">
+                        <div class="card-des">SKYROOT AEROSPACE GETS FUNDS FROM EARLY GOOGLE INVESTOR</div>
+                    </figure>
+
+
+
+
+
+                </div>
+
+            </div>
+
+            <div class="footer">
+                    <div class="footer-img">
+                        <img src="https://skyroot.in/images/footer-logo.svg" alt="">
+                    </div>
+                    <div class="footer-des">
+                        <div class="footer-zero">
+                            <p>STAY IN OUR ORBIT</p>
+                            <div >
+                                <input type="text" placeholder="enter your email id">
+                                <button>Submit</button>
+                            </div>
+                            <div></div>
+                            <hr>
+                        </div>
+                        <div class="footer-one">
+                                <h2>COMPANY</h2>
+                                <h5>ABOUT</h5>
+                                <h5>Career</h5>
+                             </div>
+                             
+                       
+                        <div class="footer-one">
+                            <h2>Resources</h2>
+                            <h5>Launch Services</h5>
+                            <h5>News Room</h5>
+                            <hr>
+                        </div>
+                        <div></div>
+                        
+                    </div>
+                  
+
+            </div>
+           <div class="footer-footer">
+            <div class="Copyright">
+                Copyright @ 2023 Skyroot Aerospace. All Rights Reserved.
+            </div>
+           </div>
+        </div>
+
+        <!-- ====== MAIN CONTAINER END ====== -->
+    </div>
+    <!-- ============ MAIN WRAPPER END  ============ -->
+
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
