@@ -295,28 +295,3 @@ revealOnScroll();
 
 
 
-const imageUrls1 = [
-  "https://skyroot.in/images/careers01.jpeg",
-  "https://skyroot.in/images/career2.jpeg",
-  "https://skyroot.in/images/career3.jpeg",
-  
-  
-];
-
-const imgElement1 = document.querySelector(".image-container3");
-let currentIndex3 = 0;
-
-// Function to change the image
-function changeImage() {
-  imgElement1.src = imageUrls[currentIndex3];
-  currentIndex3 = (currentIndex3 + 1) % imageUrls.length;
-}
-
-// Set an interval to change the image every N milliseconds (e.g., every 5 seconds)
-const interval1 = 5000; // Change image every 5 seconds (5000 milliseconds)
-setInterval(changeImage, interval1);
-
-
-
-
-
